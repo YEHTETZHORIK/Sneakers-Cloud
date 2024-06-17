@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #welcome {
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            margin: 4px;
+            display: inline-block;
+            background-color: rgba(247, 249, 250, 0.664);
+            padding-left: 10px; 
+            padding-right: 10px; 
+            cursor: pointer;
+            border-radius: 40px;
+        }
+
+        #sneaker {
+            color: rgb(255, 255, 255);
+            font-family: cursive;
+            font-size: 70px;
+            margin: 6px;
+            display: inline-block;
+            background-color: rgba(40, 142, 91, 0.769);
+            border-radius: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+
+        .bg-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(home_bg.jpg); 
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3; 
+            z-index: -1; 
+        }
+
+        #Brand {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing: 5px;
+            padding-left: 80px;
+            text-decoration: underline;
+            opacity: 0.5px;
+        }
+
+        pre {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0px;
+            background-color: rgba(0, 0, 0, 0.363);
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 300px;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            line-height: 1.5;
+            border-radius: 300px;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+
+        nav {
+            position: fixed;
+            background-color: #2807ff;
+            overflow: hidden;
+            justify-content: center;
+            padding-left: 10px;
+            justify-content: space-around;
+            position: static;
+            position: sticky; 
+  top: 0; 
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #2e19e861;
+            color: #000000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Sneakers.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="welcome">Welcome to</h1>
+    <h1 id="sneaker">Sneaker Cloud</h1>
+
+    <h2 id="Brand">Nike</h2>
+<pre>Nike Air technology consists of pressurised air inside a tough yet flexible bag,
+and provides more flexibility and spring without compromising structure.
+The Air-Sole units maintain their given form with elasticity, 
+reduce impact and keep the shoe snug and lightweight.</pre>
+    <h2 id="Brand">Adidas</h2>
+<pre>Adidas is known for producing high-quality shoes that are durable and long-lasting.
+They use top-quality materials to ensure that their shoes can withstand regular wear and tear.</pre>
+    <h2 id="Brand">Puma</h2>
+    <pre>PUMA's self-lacing Fit Intelligence Training Shoe responds to athletes and their environment
+by adapting to the wearer's needs . The shoe automatically adapts to the foot and knows
+how loose or tight it can lace. The only thing the wearer has to do is swiping up or down on
+the shoe.</pre>
+    <h2 id="Brand">Fila</h2>
+        <pre>The upper material is made of high-quality leatherette, while the inside of the shoe
+is textile fabric. The sole is made of synthetic TPR . The tongue and heel are equipped
+with pull loops, and the inside of the shoe is perforated.</pre>
+    <div class="bg-image"></div>
+
+</body>
+</html>
